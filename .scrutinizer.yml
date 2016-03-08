@@ -1,12 +1,1 @@
-build:
-    tests:
-        override: 
-            - 
-                command: 'rubocop'
-                analysis:
-                    file: 'data'
-                    format: 'rubocop'
-tools:
-    external_analysis: 
-        enabled: true
-        runs: 10
+
