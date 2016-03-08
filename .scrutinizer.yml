@@ -2,7 +2,7 @@ build:
     tests:
         override: 
             - 
-                command: 'rubocop .'
+                command: 'rubocop'
                 analysis:
                     file: 'data'
                     format: 'rubocop'
