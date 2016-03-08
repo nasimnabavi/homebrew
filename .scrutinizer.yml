@@ -4,7 +4,7 @@ build:
             - 
                 command: 'rubocop .'
                 analysis:
-                    file: 'something'
+                    file: 'data'
                     format: 'rubocop'
 tools:
     external_analysis: 
