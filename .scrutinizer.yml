@@ -1,3 +1,10 @@
-build: true
+build:
+    tests:
+        override: 
+            - 
+                command: 'rubocop'
+                analysis:
+                    file: 'data'
+                    format: 'rubocop'
 tools:
     rubocop: true
