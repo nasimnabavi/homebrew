@@ -1,3 +1,11 @@
+build:
+    tests:
+        override: 
+            - 
+                command: 'rubocop .'
+                analysis:
+                    file: 'something'
+                    format: 'rubocop'
 tools:
     external_analysis: 
         enabled: true
