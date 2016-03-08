@@ -8,5 +8,4 @@ build:
                 analysis:
                     file: 'data'
                     format: 'rubocop'
-tools:
-    rubocop: true
+
