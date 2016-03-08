@@ -1,8 +1,4 @@
-build:
-    tests:
-        override: 
-            -
-                command: 'rubocop .'
-                Analysis:
-                    file: 'rubocop-file'
-                    format: 'rubocop'
+tools:
+    external_analysis: 
+        enabled: true
+        runs: 10
