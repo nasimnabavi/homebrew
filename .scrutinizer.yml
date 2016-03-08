@@ -1,5 +1,7 @@
 build:
     tests:
+        before:
+            - gem install rubocop
         override: 
             - 
                 command: 'rubocop'
