@@ -2,10 +2,3 @@ build:
     tests:
         before:
             - gem install rubocop
-        override: 
-            - 
-                command: 'rubocop -o rubocop-data'
-                analysis:
-                    file: 'rubocop-data'
-                    format: 'rubocop'
-
