@@ -4,7 +4,7 @@ build:
             - gem install rubocop
         override: 
             - 
-                command: 'rubocop -o data'
+                command: 'rubocop -o rubocop-data'
                 analysis:
                     file: 'rubocop-data'
                     format: 'rubocop'
