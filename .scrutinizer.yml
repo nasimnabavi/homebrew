@@ -7,5 +7,5 @@ build:
                 command: 'rubocop --format json -o rubocop-data'
                 analysis:
                     file: 'rubocop-data'
-                    format: 'rubocop'
+                    format: 'rubocop-json'
 
