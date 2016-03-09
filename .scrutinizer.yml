@@ -1,5 +1,3 @@
-tools:
-    external_analysis: true
 build:
     tests:
         before:
@@ -8,6 +6,6 @@ build:
             - 
                 command: 'rubocop -o data'
                 analysis:
-                    file: 'data'
+                    file: 'rubocop-data'
                     format: 'rubocop'
 
