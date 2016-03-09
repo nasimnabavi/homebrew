@@ -8,4 +8,9 @@ build:
                 analysis:
                     file: 'rubocop-data'
                     format: 'rubocop-json'
+            - 
+                command: 'rubocop --format json -o rubocop-data'
+                analysis:
+                    file: 'rubocop-data'
+                    format: 'rubocop-json'
 
