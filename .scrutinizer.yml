@@ -8,3 +8,6 @@ build:
                 analysis:
                     file: 'rubocop-data'
                     format: 'rubocop'
+tools:
+    external_analysis: 
+        enabled: true
